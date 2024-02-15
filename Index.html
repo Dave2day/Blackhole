@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Schoology</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color : white
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #000000;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 60px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #a9a9a9;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #000000;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: black;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #000000;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Blackhole</h1>
+  <p>Where goguardian comes to and end..</p>
+</div>
+
+<div class="navbar">
+  <a href="https://docs.google.com/document/d/1Ozjy-CtpmB-BwMevHTcRD-N8ndYNlDywpS7pO3LT4tc/edit#heading=h.6qt5igt2g9da" target="_blank">Official Google Doc</a>
+  <a href="https://bf3dd64f-760a-4109-b1fa-195c5e7c1f8b-00-1a1mzymk2qpn7.kirk.repl.co/" target="_blank">About Us</a>
+   <a href="https://499ce84c-24ce-48ae-bbdb-2f6896d5c080-00-2inzn8trv2gp5.kirk.repl.co/" target="_blank">Main</a>
+  <a href="https://a8ec4c70-4d0d-4731-8c79-f16b1cfffdd0-00-1jzaoxkxde42y.worf.repl.co/">Contact Us</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Nothing much here.</h2>
+    <h5>Kinda just Chill, Check out our areas,</h5>
+    <div class="Blackhole.jpeg" style="height:200px;"><img src="Blackhole.jpeg" alt="Trulli" width="900" height="200"></div>
+    <p>More Info Coming near you :D</p>
+     </div>
+    </div>
+
+    <div class="footer">
+      <h2>©2024 Blackhole</h2>
+    </div>
+   
+
+</body>
+</html>
